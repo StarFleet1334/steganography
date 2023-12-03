@@ -1,0 +1,11 @@
+Hiding Data in Wordlist
+A drawback of the previous approach is that missing letter puzzle is not so common and stego
+file consists of too many question marks. This proposed method addresses this issue and
+conceals a message in a list of words without using any special character. Each character is
+International Journal of Network Security & Its Applications (IJNSA), Vol.5, No.1, January 2013
+98
+hidden in a word of certain length. The starting letter of word is determined by masking sum of
+the digits of ASCII value of the character to an English alphabet. If sum of the digits is 1, then
+starting letter of word will be ‘a’; if it is 2, then ‘b’ and so forth. Since the length and staring
+letter of words depends on the decimal value of the embedded characters, cover is dynamically
+generated.
